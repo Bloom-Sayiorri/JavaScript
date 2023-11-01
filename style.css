@@ -2,6 +2,39 @@
 :root {
     --white: #ffffff;
     --black: #000000;
-    --blue: #1530e0ad;
+    --blue: #051f599e;
     --light-blue: #369edead;
 }
+
+body {
+    background-color: var(--blue);
+}
+
+h1 {
+    color: var(--white);
+    font-size: 3rem;
+}
+
+.searching {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.search_bar {
+    size: 1 rem;
+    border-radius: 5px;
+    border-color: var(--light-blue);
+}
+
+.search_btn {
+    font-size: 1rem;
+    border-radius: 2px;
+    overflow: hidden;
+    border: #ffffff;
+}
+
+.search_bar:focus {
+    outline: none; /* Remove the default focus outline (optional) */
+    border-color: transparent; /* Set the border color to transparent when focused */
+  }
