@@ -37,4 +37,8 @@ h1 {
 .search_bar:focus {
     outline: none; /* Remove the default focus outline (optional) */
     border-color: transparent; /* Set the border color to transparent when focused */
-  }
+}
+
+.footer {
+    
+}
