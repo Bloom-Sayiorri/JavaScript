@@ -40,5 +40,5 @@ h1 {
 }
 
 .footer {
-    
+    display: flex;
 }
